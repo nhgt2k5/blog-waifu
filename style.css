@@ -1,0 +1,78 @@
+
+body{
+    font-family: sans-serif;
+    color: #333;
+}
+#menu ul{
+    list-style-type: none;
+    background: black;
+    text-align: center;
+}
+#menu ul li{
+    color: white;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;   
+}
+#menu ul li a{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+#menu ul li a:hover{
+    background: aquamarine;
+    color:black;
+}
+#menu ul li > .menuTL{
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+#menu ul li:hover .menuTL{
+    display: block;
+    width: inherit;
+}
+.Search{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 30px; 
+    position: relative;
+    border-style: hidden;
+    line-height: 40px;
+}
+.Sbutton{
+    position: absolute;
+    background-color: blue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 70px;
+    height:31px;
+    margin-top: 6px;
+    border-style: hidden;
+    display:inline-block
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+.bodymoi{
+    width: 100%;
+    height: 100%;
+    background-color: lightslategray;
+}
+.mv{
+    width:60%;
+    height:inherit;
+    background-color:lightslategray;
+    margin-left: 303.8px;
+    
+}
+.hinhanh{
+    width: 300px;
+    height: 300px;
+
+}
+
